@@ -1,0 +1,23 @@
+podemos realizar archivos de notas.txt para dejar anotaciones a nuestro grupo de trabajo, 
+documentar el programa para que nos podamos comunicar entre los grupos de trabajo y de esta forma
+se realice un buen programa.
+
+REPOSITORIO O REPO: carpeta dentro del computador donde voy controlando las distintas versiones de los archivos 
+GIT: Es el programa que ayuda a controlar las versiones que se tienen en la carpeta.
+
+los cambios se hacen mediante un  Commit (crear una version de algun archivo), esto es registrar cambios, los commit siempre deben tener comentario.
+
+Nota: para registrar cambios (commit) se requiere que sea nombre de alguien, colocar las variables user.name y user.gmail
+comando: git config user.name y git config user.email.
+
+Para hacerlo de forma global los comandos son: git config --global user.name o git config --global user.email
+
+
+Areas de trabajo de los repo:
+1- Area de trabajo (U): working area : se representan con la U, se tienen los archivos si aberles hecho version de versiones
+2- Preparacion: Staging area : se pasan desde el area de trabajo, estos archivos se estan preparando para subirlos al repo
+3- Area de repositorio : los archivos vienen desde el area de preparacion al repositorio definitivo, esto es un Commit
+
+Existen diferentes estados en un repositorio.
+
+U: a los archivos no se les esta haciendo seguimiento
